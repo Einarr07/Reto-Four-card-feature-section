@@ -1,0 +1,100 @@
+* {
+   box-sizing: border-box;    
+}
+
+body {
+    text-align: center;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    background: hsl(0, 0%, 96%);
+}
+
+.titulo {
+    font-size: 2.5rem;
+}
+
+.subtitulo{
+    width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cartas{
+    position: relative;
+  width: 1200px;
+  height: 550px;
+  margin: 5em auto;
+}
+
+.carta{
+    position: absolute;
+  width: 350px;
+  height: 250px;
+  padding: 0 2em;
+  font-size: 0.9rem;
+  border-radius: 10px;
+  box-shadow: 5px 10px 10px hsl(234, 12%, 34%);
+  background: hsl(0, 0%, 93%);
+}
+
+.tituloCarta, .textoCarta{
+    text-align: left;
+}
+
+.iconoCarta{
+    position: absolute;
+  right: 2em;
+  bottom: 2em;
+}
+
+.cartaCeleste{
+    border-top: 5px solid hsl(180, 62%, 55%);
+}
+
+.cartaRoja{
+    border-top: 5px solid hsl(0, 78%, 62%);
+}
+  
+.cartaNaranja {
+    border-top: 5px solid hsl(34, 97%, 64%);
+}
+  
+.cartaAzul {
+    border-top: 5px solid hsl(212, 86%, 64%);
+}
+
+.cartaLeft, .cartaRight{
+    top:150px
+}
+
+.cartaTop, .cartaBottom {
+  left: 425px;
+}
+
+.cartaLeft {
+  left: 0;
+}
+
+.cartaTop {
+  top: 0;
+}
+
+.cartaRight {
+  right: 0;
+}
+
+.cartaBottom {
+  bottom: 0;
+}
+
+.subtitulo, .textoCarta{
+    color: hsl(229, 6%, 66%);
+}
+.titulo, .tituloCarta{
+    font-weight: 200;
+}
+
+.attribution{
+    text-align: center;
+    font-size: 1.4rem;
+}
